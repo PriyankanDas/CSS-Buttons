@@ -1,0 +1,52 @@
+.btn {
+    width: 100px;
+    height: 45px;
+    background-color: rgb(31, 182, 219);
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+    letter-spacing: 3px;
+    transition: transform 90ms ease;
+    border-radius: 4px;
+}
+
+.btn-danger {
+    background-color: red;
+    color: black;
+}
+
+.btn-success {
+    background-color: rgb(74, 202, 74);
+}
+
+.btn-warning {
+    background-color: rgb(243, 243, 56);
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(14, 207, 255);
+}
+
+.btn-danger:hover {
+    background-color: rgb(248, 77, 77);
+}
+
+.btn-success:hover {
+    background-color: rgb(114, 231, 114);
+}
+
+.btn-warning:hover {
+    background-color: rgb(255, 255, 144);
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
